@@ -27,7 +27,7 @@ export default function Home () {
                     <div key={elem.id}>
                         <h2>{elem.name}</h2> 
                         <p>Founder: {elem.founder}</p>
-                        <Link to={`/houses/${elem.id}`}>See more</Link>
+                        <Link to={`/${elem.id}`}>See more</Link>
                     </div>
                 )
             })}
